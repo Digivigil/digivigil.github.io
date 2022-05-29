@@ -1,0 +1,11 @@
+body{
+    background: #216875;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.backgroundSVGContainer{
+    padding: 0;
+    maring: 0;
+}
