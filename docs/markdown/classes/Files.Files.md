@@ -44,14 +44,13 @@ ___
 
 ### returnFile
 
-▸ **returnFile**(`filePath`, `encoding?`): `Promise`<`Buffer`\>
+▸ **returnFile**(`filePath`): `Promise`<`Buffer`\>
 
 #### Parameters
 
-| Name | Type | Default value |
-| :------ | :------ | :------ |
-| `filePath` | `string` | `undefined` |
-| `encoding` | `string` | `"utf-8"` |
+| Name | Type |
+| :------ | :------ |
+| `filePath` | `string` |
 
 #### Returns
 

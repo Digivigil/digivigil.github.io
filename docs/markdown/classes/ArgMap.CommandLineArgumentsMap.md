@@ -31,9 +31,9 @@ Creates an instance of CommandLineArgumentsMap.
 
 #### Parameters
 
-| Name | Type | Default value |
-| :------ | :------ | :------ |
-| `commandLineArguments` | `string`[] | `process.argv` |
+| Name | Type | Default value | Description |
+| :------ | :------ | :------ | :------ |
+| `commandLineArguments?` | `string`[] | `process.argv` | Array of command line arguments |
 
 #### Defined in
 
@@ -69,7 +69,7 @@ Instance/Configuration/ArgMap.ts:15
 
 #### Defined in
 
-Instance/Configuration/ArgMap.ts:46
+Instance/Configuration/ArgMap.ts:47
 
 ___
 
@@ -93,4 +93,4 @@ Gets the value of the specified argument
 
 #### Defined in
 
-Instance/Configuration/ArgMap.ts:42
+Instance/Configuration/ArgMap.ts:43

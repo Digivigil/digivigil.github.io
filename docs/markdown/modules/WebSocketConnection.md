@@ -2,7 +2,7 @@
 
 # Module: WebSocketConnection
 
-This modules exported as a Class
+WebSocketConnection exported as a Class
 
 ## Table of contents
 

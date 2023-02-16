@@ -58,7 +58,7 @@ Utility/DataStructures.ts:61
 
 ### data
 
-• `Private` **data**: `T`[]
+• `Private` `Readonly` **data**: `T`[]
 
 The data stored in the array
 
@@ -70,7 +70,7 @@ ___
 
 ### maxSize
 
-• `Private` **maxSize**: `number`
+• `Private` `Readonly` **maxSize**: `number`
 
 The maximum size of the array
 

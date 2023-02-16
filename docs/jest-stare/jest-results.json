@@ -2,13 +2,13 @@
   "numFailedTestSuites": 0,
   "numFailedTests": 0,
   "numPassedTestSuites": 15,
-  "numPassedTests": 25,
+  "numPassedTests": 26,
   "numPendingTestSuites": 0,
   "numPendingTests": 1,
   "numRuntimeErrorTestSuites": 0,
   "numTodoTests": 41,
   "numTotalTestSuites": 15,
-  "numTotalTests": 67,
+  "numTotalTests": 68,
   "openHandles": [],
   "snapshot": {
     "added": 0,
@@ -26,531 +26,9 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1676585543767,
+  "startTime": 1676587886654,
   "success": false,
   "testResults": [
-    {
-      "leaks": false,
-      "numFailingTests": 0,
-      "numPassingTests": 1,
-      "numPendingTests": 0,
-      "numTodoTests": 0,
-      "openHandles": [],
-      "perfStats": {
-        "end": 1676585545636,
-        "runtime": 1435,
-        "slow": false,
-        "start": 1676585544201
-      },
-      "skipped": false,
-      "snapshot": {
-        "added": 0,
-        "fileDeleted": false,
-        "matched": 0,
-        "unchecked": 0,
-        "uncheckedKeys": [],
-        "unmatched": 0,
-        "updated": 0
-      },
-      "testFilePath": "/Users/ephedrandrox/Desktop/Digivigil/workspace/balek/tests/io/databases/msql.test.ts",
-      "testResults": [
-        {
-          "ancestorTitles": [
-            "Testing  IO SqlDatabaseConnection Class"
-          ],
-          "duration": 3,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "Testing  IO SqlDatabaseConnection Class SqlDatabaseConnection Class isReady resolves",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 1,
-          "retryReasons": [],
-          "status": "passed",
-          "title": "SqlDatabaseConnection Class isReady resolves"
-        }
-      ],
-      "failureMessage": null
-    },
-    {
-      "leaks": false,
-      "numFailingTests": 0,
-      "numPassingTests": 0,
-      "numPendingTests": 0,
-      "numTodoTests": 2,
-      "openHandles": [],
-      "perfStats": {
-        "end": 1676585545641,
-        "runtime": 1411,
-        "slow": false,
-        "start": 1676585544230
-      },
-      "skipped": false,
-      "snapshot": {
-        "added": 0,
-        "fileDeleted": false,
-        "matched": 0,
-        "unchecked": 0,
-        "uncheckedKeys": [],
-        "unmatched": 0,
-        "updated": 0
-      },
-      "testFilePath": "/Users/ephedrandrox/Desktop/Digivigil/workspace/balek/tests/protocol.test.ts",
-      "testResults": [
-        {
-          "ancestorTitles": [
-            "Testing Balek Protocol"
-          ],
-          "duration": null,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "Testing Balek Protocol Create Balek Protocol Module",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 0,
-          "retryReasons": [],
-          "status": "todo",
-          "title": "Create Balek Protocol Module"
-        },
-        {
-          "ancestorTitles": [
-            "Testing Balek Protocol"
-          ],
-          "duration": null,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "Testing Balek Protocol Test protocol Handshake that confirms version",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 0,
-          "retryReasons": [],
-          "status": "todo",
-          "title": "Test protocol Handshake that confirms version"
-        }
-      ],
-      "failureMessage": null
-    },
-    {
-      "leaks": false,
-      "numFailingTests": 0,
-      "numPassingTests": 3,
-      "numPendingTests": 0,
-      "numTodoTests": 0,
-      "openHandles": [],
-      "perfStats": {
-        "end": 1676585545647,
-        "runtime": 1441,
-        "slow": false,
-        "start": 1676585544206
-      },
-      "skipped": false,
-      "snapshot": {
-        "added": 0,
-        "fileDeleted": false,
-        "matched": 0,
-        "unchecked": 0,
-        "uncheckedKeys": [],
-        "unmatched": 0,
-        "updated": 0
-      },
-      "testFilePath": "/Users/ephedrandrox/Desktop/Digivigil/workspace/balek/tests/configuration/argMap.test.ts",
-      "testResults": [
-        {
-          "ancestorTitles": [
-            "commandLineArgumentsMap"
-          ],
-          "duration": 5,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "commandLineArgumentsMap should return a map of the command line arguments",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 5,
-          "retryReasons": [],
-          "status": "passed",
-          "title": "should return a map of the command line arguments"
-        },
-        {
-          "ancestorTitles": [
-            "commandLineArgumentsMap"
-          ],
-          "duration": 1,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "commandLineArgumentsMap should return a map of the command line arguments when there is no equals sign",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 3,
-          "retryReasons": [],
-          "status": "passed",
-          "title": "should return a map of the command line arguments when there is no equals sign"
-        },
-        {
-          "ancestorTitles": [
-            "commandLineArgumentsMap"
-          ],
-          "duration": 1,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "commandLineArgumentsMap should return a map of the command line arguments when there is no equals sign",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 3,
-          "retryReasons": [],
-          "status": "passed",
-          "title": "should return a map of the command line arguments when there is no equals sign"
-        }
-      ],
-      "failureMessage": null
-    },
-    {
-      "leaks": false,
-      "numFailingTests": 0,
-      "numPassingTests": 5,
-      "numPendingTests": 0,
-      "numTodoTests": 0,
-      "openHandles": [],
-      "perfStats": {
-        "end": 1676585545666,
-        "runtime": 1456,
-        "slow": false,
-        "start": 1676585544210
-      },
-      "skipped": false,
-      "snapshot": {
-        "added": 0,
-        "fileDeleted": false,
-        "matched": 0,
-        "unchecked": 0,
-        "uncheckedKeys": [],
-        "unmatched": 0,
-        "updated": 0
-      },
-      "testFilePath": "/Users/ephedrandrox/Desktop/Digivigil/workspace/balek/tests/io/files.test.ts",
-      "testResults": [
-        {
-          "ancestorTitles": [
-            "Testing Files IO Class"
-          ],
-          "duration": 5,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "Testing Files IO Class Files Class isReady resolves",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 1,
-          "retryReasons": [],
-          "status": "passed",
-          "title": "Files Class isReady resolves"
-        },
-        {
-          "ancestorTitles": [
-            "Testing Files IO Class"
-          ],
-          "duration": 3,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "Testing Files IO Class Files Class Returns file: package.json",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 1,
-          "retryReasons": [],
-          "status": "passed",
-          "title": "Files Class Returns file: package.json"
-        },
-        {
-          "ancestorTitles": [
-            "Testing Files IO Class"
-          ],
-          "duration": 2,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "Testing Files IO Class Files Class Throws error on unavailable file",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 1,
-          "retryReasons": [],
-          "status": "passed",
-          "title": "Files Class Throws error on unavailable file"
-        },
-        {
-          "ancestorTitles": [
-            "Testing Files IO Class"
-          ],
-          "duration": 1,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "Testing Files IO Class Files Class Returns a Readable File Handle for package.json",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 1,
-          "retryReasons": [],
-          "status": "passed",
-          "title": "Files Class Returns a Readable File Handle for package.json"
-        },
-        {
-          "ancestorTitles": [
-            "Testing Files IO Class"
-          ],
-          "duration": 1,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "Testing Files IO Class Files Class Throws error on unavailable file handle",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 1,
-          "retryReasons": [],
-          "status": "passed",
-          "title": "Files Class Throws error on unavailable file handle"
-        }
-      ],
-      "failureMessage": null
-    },
-    {
-      "leaks": false,
-      "numFailingTests": 0,
-      "numPassingTests": 1,
-      "numPendingTests": 0,
-      "numTodoTests": 0,
-      "openHandles": [],
-      "perfStats": {
-        "end": 1676585545668,
-        "runtime": 1451,
-        "slow": false,
-        "start": 1676585544217
-      },
-      "skipped": false,
-      "snapshot": {
-        "added": 0,
-        "fileDeleted": false,
-        "matched": 0,
-        "unchecked": 0,
-        "uncheckedKeys": [],
-        "unmatched": 0,
-        "updated": 0
-      },
-      "testFilePath": "/Users/ephedrandrox/Desktop/Digivigil/workspace/balek/tests/io/databases.test.ts",
-      "testResults": [
-        {
-          "ancestorTitles": [
-            "Testing  IO Databases Class"
-          ],
-          "duration": 3,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "Testing  IO Databases Class Databases Class isReady resolves",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 1,
-          "retryReasons": [],
-          "status": "passed",
-          "title": "Databases Class isReady resolves"
-        }
-      ],
-      "failureMessage": null
-    },
-    {
-      "leaks": false,
-      "numFailingTests": 0,
-      "numPassingTests": 1,
-      "numPendingTests": 0,
-      "numTodoTests": 0,
-      "openHandles": [],
-      "perfStats": {
-        "end": 1676585545666,
-        "runtime": 1445,
-        "slow": false,
-        "start": 1676585544221
-      },
-      "skipped": false,
-      "snapshot": {
-        "added": 0,
-        "fileDeleted": false,
-        "matched": 0,
-        "unchecked": 0,
-        "uncheckedKeys": [],
-        "unmatched": 0,
-        "updated": 0
-      },
-      "testFilePath": "/Users/ephedrandrox/Desktop/Digivigil/workspace/balek/tests/io/databases/mongo.test.ts",
-      "testResults": [
-        {
-          "ancestorTitles": [
-            "IO MongoDatabaseConnection Class"
-          ],
-          "duration": 3,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "IO MongoDatabaseConnection Class MongoDatabaseConnection Class isReady",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 1,
-          "retryReasons": [],
-          "status": "passed",
-          "title": "MongoDatabaseConnection Class isReady"
-        }
-      ],
-      "failureMessage": null
-    },
-    {
-      "leaks": false,
-      "numFailingTests": 0,
-      "numPassingTests": 3,
-      "numPendingTests": 0,
-      "numTodoTests": 0,
-      "openHandles": [],
-      "perfStats": {
-        "end": 1676585545697,
-        "runtime": 1486,
-        "slow": false,
-        "start": 1676585544211
-      },
-      "skipped": false,
-      "snapshot": {
-        "added": 0,
-        "fileDeleted": false,
-        "matched": 0,
-        "unchecked": 0,
-        "uncheckedKeys": [],
-        "unmatched": 0,
-        "updated": 0
-      },
-      "testFilePath": "/Users/ephedrandrox/Desktop/Digivigil/workspace/balek/tests/utility/dataStructures.test.ts",
-      "testResults": [
-        {
-          "ancestorTitles": [
-            "FixedSizeArray"
-          ],
-          "duration": 4,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "FixedSizeArray should add items to the array",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 1,
-          "retryReasons": [],
-          "status": "passed",
-          "title": "should add items to the array"
-        },
-        {
-          "ancestorTitles": [
-            "FixedSizeArray"
-          ],
-          "duration": 1,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "FixedSizeArray should remove the oldest item when adding a new item and the size exceeds the maximum",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 1,
-          "retryReasons": [],
-          "status": "passed",
-          "title": "should remove the oldest item when adding a new item and the size exceeds the maximum"
-        },
-        {
-          "ancestorTitles": [
-            "FixedSizeArray"
-          ],
-          "duration": 0,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "FixedSizeArray should perform a callback function on each item in the array using forEach",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 1,
-          "retryReasons": [],
-          "status": "passed",
-          "title": "should perform a callback function on each item in the array using forEach"
-        }
-      ],
-      "failureMessage": null
-    },
-    {
-      "leaks": false,
-      "numFailingTests": 0,
-      "numPassingTests": 0,
-      "numPendingTests": 0,
-      "numTodoTests": 1,
-      "openHandles": [],
-      "perfStats": {
-        "end": 1676585545703,
-        "runtime": 1514,
-        "slow": false,
-        "start": 1676585544189
-      },
-      "skipped": false,
-      "snapshot": {
-        "added": 0,
-        "fileDeleted": false,
-        "matched": 0,
-        "unchecked": 0,
-        "uncheckedKeys": [],
-        "unmatched": 0,
-        "updated": 0
-      },
-      "testFilePath": "/Users/ephedrandrox/Desktop/Digivigil/workspace/balek/tests/interface.test.ts",
-      "testResults": [
-        {
-          "ancestorTitles": [
-            "Testing Balek Client Interface"
-          ],
-          "duration": null,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "Testing Balek Client Interface Create Balek Client Interface Class",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 0,
-          "retryReasons": [],
-          "status": "todo",
-          "title": "Create Balek Client Interface Class"
-        }
-      ],
-      "failureMessage": null
-    },
-    {
-      "leaks": false,
-      "numFailingTests": 0,
-      "numPassingTests": 1,
-      "numPendingTests": 0,
-      "numTodoTests": 0,
-      "openHandles": [],
-      "perfStats": {
-        "end": 1676585545677,
-        "runtime": 1471,
-        "slow": false,
-        "start": 1676585544206
-      },
-      "skipped": false,
-      "snapshot": {
-        "added": 0,
-        "fileDeleted": false,
-        "matched": 0,
-        "unchecked": 0,
-        "uncheckedKeys": [],
-        "unmatched": 0,
-        "updated": 0
-      },
-      "testFilePath": "/Users/ephedrandrox/Desktop/Digivigil/workspace/balek/tests/io/https.test.ts",
-      "testResults": [
-        {
-          "ancestorTitles": [
-            "Testing  IO Https Class"
-          ],
-          "duration": 3,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "Testing  IO Https Class Https Class isReady resolves",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 1,
-          "retryReasons": [],
-          "status": "passed",
-          "title": "Https Class isReady resolves"
-        }
-      ],
-      "failureMessage": null
-    },
     {
       "leaks": false,
       "numFailingTests": 0,
@@ -559,10 +37,10 @@
       "numTodoTests": 38,
       "openHandles": [],
       "perfStats": {
-        "end": 1676585545707,
-        "runtime": 1506,
+        "end": 1676587888285,
+        "runtime": 1290,
         "slow": false,
-        "start": 1676585544201
+        "start": 1676587886995
       },
       "skipped": false,
       "snapshot": {
@@ -1152,15 +630,537 @@
     {
       "leaks": false,
       "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1676587888297,
+        "runtime": 1311,
+        "slow": false,
+        "start": 1676587886986
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/ephedrandrox/Desktop/Digivigil/workspace/balek/tests/io/databases/msql.test.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Testing  IO SqlDatabaseConnection Class"
+          ],
+          "duration": 3,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Testing  IO SqlDatabaseConnection Class SqlDatabaseConnection Class isReady resolves",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "SqlDatabaseConnection Class isReady resolves"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 0,
+      "numPendingTests": 0,
+      "numTodoTests": 1,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1676587888304,
+        "runtime": 1289,
+        "slow": false,
+        "start": 1676587887015
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/ephedrandrox/Desktop/Digivigil/workspace/balek/tests/interface.test.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Testing Balek Client Interface"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Testing Balek Client Interface Create Balek Client Interface Class",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Create Balek Client Interface Class"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 0,
+      "numPendingTests": 0,
+      "numTodoTests": 2,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1676587888305,
+        "runtime": 1304,
+        "slow": false,
+        "start": 1676587887001
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/ephedrandrox/Desktop/Digivigil/workspace/balek/tests/protocol.test.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Testing Balek Protocol"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Testing Balek Protocol Create Balek Protocol Module",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Create Balek Protocol Module"
+        },
+        {
+          "ancestorTitles": [
+            "Testing Balek Protocol"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Testing Balek Protocol Test protocol Handshake that confirms version",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Test protocol Handshake that confirms version"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 3,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1676587888311,
+        "runtime": 1319,
+        "slow": false,
+        "start": 1676587886992
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/ephedrandrox/Desktop/Digivigil/workspace/balek/tests/utility/dataStructures.test.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "FixedSizeArray"
+          ],
+          "duration": 2,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "FixedSizeArray should add items to the array",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should add items to the array"
+        },
+        {
+          "ancestorTitles": [
+            "FixedSizeArray"
+          ],
+          "duration": 0,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "FixedSizeArray should remove the oldest item when adding a new item and the size exceeds the maximum",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should remove the oldest item when adding a new item and the size exceeds the maximum"
+        },
+        {
+          "ancestorTitles": [
+            "FixedSizeArray"
+          ],
+          "duration": 0,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "FixedSizeArray should perform a callback function on each item in the array using forEach",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should perform a callback function on each item in the array using forEach"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1676587888310,
+        "runtime": 1312,
+        "slow": false,
+        "start": 1676587886998
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/ephedrandrox/Desktop/Digivigil/workspace/balek/tests/io/databases/mongo.test.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "IO MongoDatabaseConnection Class"
+          ],
+          "duration": 2,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "IO MongoDatabaseConnection Class MongoDatabaseConnection Class isReady",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "MongoDatabaseConnection Class isReady"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 3,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1676587888313,
+        "runtime": 1312,
+        "slow": false,
+        "start": 1676587887001
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/ephedrandrox/Desktop/Digivigil/workspace/balek/tests/configuration/argMap.test.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "commandLineArgumentsMap"
+          ],
+          "duration": 4,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "commandLineArgumentsMap should return a map of the command line arguments",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 5,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should return a map of the command line arguments"
+        },
+        {
+          "ancestorTitles": [
+            "commandLineArgumentsMap"
+          ],
+          "duration": 0,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "commandLineArgumentsMap should return a map of the command line arguments when there is no equals sign",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 3,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should return a map of the command line arguments when there is no equals sign"
+        },
+        {
+          "ancestorTitles": [
+            "commandLineArgumentsMap"
+          ],
+          "duration": 0,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "commandLineArgumentsMap should return a map of the command line arguments when there is no equals sign",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 3,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should return a map of the command line arguments when there is no equals sign"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1676587888314,
+        "runtime": 1320,
+        "slow": false,
+        "start": 1676587886994
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/ephedrandrox/Desktop/Digivigil/workspace/balek/tests/io/databases.test.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Testing  IO Databases Class"
+          ],
+          "duration": 2,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Testing  IO Databases Class Databases Class isReady resolves",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Databases Class isReady resolves"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 5,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1676587888327,
+        "runtime": 1345,
+        "slow": false,
+        "start": 1676587886982
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/ephedrandrox/Desktop/Digivigil/workspace/balek/tests/io/files.test.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Testing Files IO Class"
+          ],
+          "duration": 2,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Testing Files IO Class Files Class isReady resolves",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Files Class isReady resolves"
+        },
+        {
+          "ancestorTitles": [
+            "Testing Files IO Class"
+          ],
+          "duration": 2,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Testing Files IO Class Files Class Returns file: package.json",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Files Class Returns file: package.json"
+        },
+        {
+          "ancestorTitles": [
+            "Testing Files IO Class"
+          ],
+          "duration": 0,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Testing Files IO Class Files Class Throws error on unavailable file",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Files Class Throws error on unavailable file"
+        },
+        {
+          "ancestorTitles": [
+            "Testing Files IO Class"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Testing Files IO Class Files Class Returns a Readable File Handle for package.json",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Files Class Returns a Readable File Handle for package.json"
+        },
+        {
+          "ancestorTitles": [
+            "Testing Files IO Class"
+          ],
+          "duration": 0,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Testing Files IO Class Files Class Throws error on unavailable file handle",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Files Class Throws error on unavailable file handle"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1676587888321,
+        "runtime": 1334,
+        "slow": false,
+        "start": 1676587886987
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/ephedrandrox/Desktop/Digivigil/workspace/balek/tests/io/https.test.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Testing  IO Https Class"
+          ],
+          "duration": 2,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Testing  IO Https Class Https Class isReady resolves",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Https Class isReady resolves"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
       "numPassingTests": 6,
       "numPendingTests": 1,
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1676585546191,
-        "runtime": 2004,
+        "end": 1676587888492,
+        "runtime": 1522,
         "slow": false,
-        "start": 1676585544187
+        "start": 1676587886970
       },
       "skipped": false,
       "snapshot": {
@@ -1208,7 +1208,7 @@
           "ancestorTitles": [
             "Testing Configuration Class"
           ],
-          "duration": 0,
+          "duration": 1,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Testing Configuration Class Command Line arguments returned",
@@ -1238,7 +1238,7 @@
           "ancestorTitles": [
             "Testing Configuration Class"
           ],
-          "duration": 0,
+          "duration": 1,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Testing Configuration Class Observing a setting that was set in header",
@@ -1290,10 +1290,10 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1676585546201,
-        "runtime": 2009,
+        "end": 1676587888497,
+        "runtime": 1531,
         "slow": false,
-        "start": 1676585544192
+        "start": 1676587886966
       },
       "skipped": false,
       "snapshot": {
@@ -1311,7 +1311,7 @@
           "ancestorTitles": [
             "Testing IO Websockets Class"
           ],
-          "duration": 2,
+          "duration": 1,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Testing IO Websockets Class WebSockets Class Exists",
@@ -1333,10 +1333,10 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1676585546255,
-        "runtime": 2049,
+        "end": 1676587888533,
+        "runtime": 1562,
         "slow": false,
-        "start": 1676585544206
+        "start": 1676587886971
       },
       "skipped": false,
       "snapshot": {
@@ -1354,7 +1354,7 @@
           "ancestorTitles": [
             "Testing  IO Class"
           ],
-          "duration": 1,
+          "duration": 2,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Testing  IO Class IO Class isReady resolves",
@@ -1376,10 +1376,10 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1676585546287,
-        "runtime": 2108,
+        "end": 1676587888563,
+        "runtime": 1593,
         "slow": false,
-        "start": 1676585544179
+        "start": 1676587886970
       },
       "skipped": false,
       "snapshot": {
@@ -1414,15 +1414,15 @@
     {
       "leaks": false,
       "numFailingTests": 0,
-      "numPassingTests": 1,
+      "numPassingTests": 2,
       "numPendingTests": 0,
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1676585546289,
-        "runtime": 2141,
+        "end": 1676587888681,
+        "runtime": 1708,
         "slow": false,
-        "start": 1676585544148
+        "start": 1676587886973
       },
       "skipped": false,
       "snapshot": {
@@ -1440,7 +1440,7 @@
           "ancestorTitles": [
             "Testing  BalekServerInstance Class"
           ],
-          "duration": 82,
+          "duration": 67,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Testing  BalekServerInstance Class Can connect to localhost and receive Version",
@@ -1450,6 +1450,21 @@
           "retryReasons": [],
           "status": "passed",
           "title": "Can connect to localhost and receive Version"
+        },
+        {
+          "ancestorTitles": [
+            "Testing  BalekServerInstance Class"
+          ],
+          "duration": 0,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Testing  BalekServerInstance Class Can get Version from Instance",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Can get Version from Instance"
         }
       ],
       "failureMessage": null

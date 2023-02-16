@@ -30,7 +30,7 @@ Configuration.set("https.port", 443)
 **`Remarks`**
 
 In the example, the Configuration class is imported as "Configuration". The current value of the version setting is retrieved using get().
-An observable for the https.port setting is retrieved using getObservable().
+An observable for the "https.port" setting is retrieved using getObservable().
 The Configuration class is then used to set the "https.port" to 443.
 
 ## Table of contents
@@ -64,7 +64,7 @@ Command Line Arguments Map, Package Configuration Map, or Environment Variables 
 
 #### Defined in
 
-Instance/Configuration.ts:187
+Instance/Configuration.ts:186
 
 ___
 
@@ -88,7 +88,7 @@ gets the rxjs Observable for the setting
 
 #### Defined in
 
-Instance/Configuration.ts:170
+Instance/Configuration.ts:169
 
 ___
 
@@ -111,4 +111,4 @@ set the value of the specified setting
 
 #### Defined in
 
-Instance/Configuration.ts:206
+Instance/Configuration.ts:205

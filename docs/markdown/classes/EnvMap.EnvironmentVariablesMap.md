@@ -31,9 +31,9 @@ Creates an instance of EnvironmentVariablesMap.
 
 #### Parameters
 
-| Name | Type | Default value |
-| :------ | :------ | :------ |
-| `environmentVariables` | `ProcessEnv` | `process.env` |
+| Name | Type | Default value | Description |
+| :------ | :------ | :------ | :------ |
+| `environmentVariables?` | `ProcessEnv` | `process.env` | Object containing environment variables |
 
 #### Defined in
 

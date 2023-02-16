@@ -100,7 +100,7 @@ ___
 
 ▸ `Private` **handleOpen**(): `void`
 
-Method that handles close events
+Method that handles Open events
 
 #### Returns
 

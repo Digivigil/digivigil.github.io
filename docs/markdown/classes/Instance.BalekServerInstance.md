@@ -12,7 +12,6 @@
 
 ### Properties
 
-- [configuration](Instance.BalekServerInstance.md#configuration)
 - [io](Instance.BalekServerInstance.md#io)
 - [modules](Instance.BalekServerInstance.md#modules)
 - [protocol](Instance.BalekServerInstance.md#protocol)
@@ -21,6 +20,7 @@
 
 ### Methods
 
+- [getVersion](Instance.BalekServerInstance.md#getversion)
 - [isReady](Instance.BalekServerInstance.md#isready)
 - [start](Instance.BalekServerInstance.md#start)
 - [stop](Instance.BalekServerInstance.md#stop)
@@ -33,19 +33,9 @@
 
 #### Defined in
 
-Instance.ts:18
+Instance.ts:20
 
 ## Properties
-
-### configuration
-
-• `Private` `Readonly` **configuration**: [`Configuration`](Configuration.Configuration.md)
-
-#### Defined in
-
-Instance.ts:13
-
-___
 
 ### io
 
@@ -53,7 +43,7 @@ ___
 
 #### Defined in
 
-Instance.ts:11
+Instance.ts:13
 
 ___
 
@@ -63,7 +53,7 @@ ___
 
 #### Defined in
 
-Instance.ts:15
+Instance.ts:17
 
 ___
 
@@ -73,7 +63,7 @@ ___
 
 #### Defined in
 
-Instance.ts:14
+Instance.ts:16
 
 ___
 
@@ -83,7 +73,7 @@ ___
 
 #### Defined in
 
-Instance.ts:16
+Instance.ts:18
 
 ___
 
@@ -93,9 +83,23 @@ ___
 
 #### Defined in
 
-Instance.ts:12
+Instance.ts:14
 
 ## Methods
+
+### getVersion
+
+▸ **getVersion**(): `undefined` \| `ConfigurationSetting`
+
+#### Returns
+
+`undefined` \| `ConfigurationSetting`
+
+#### Defined in
+
+Instance.ts:37
+
+___
 
 ### isReady
 
@@ -107,7 +111,7 @@ Instance.ts:12
 
 #### Defined in
 
-Instance.ts:35
+Instance.ts:41
 
 ___
 
@@ -121,7 +125,7 @@ ___
 
 #### Defined in
 
-Instance.ts:27
+Instance.ts:29
 
 ___
 
@@ -135,4 +139,4 @@ ___
 
 #### Defined in
 
-Instance.ts:31
+Instance.ts:33
