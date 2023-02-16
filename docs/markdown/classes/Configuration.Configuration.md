@@ -29,8 +29,8 @@ Configuration.set("https.port", 443)
 
 **`Remarks`**
 
-In the example, the singleton Configuration class instance is imported as "Configuration". The current value of the version setting is retrieved using get().
-Then an observable for the https.port setting that can be subscribed to is retrieved using getObservable().
+In the example, the Configuration class is imported as "Configuration". The current value of the version setting is retrieved using get().
+An observable for the https.port setting is retrieved using getObservable().
 The Configuration class is then used to set the "https.port" to 443.
 
 ## Table of contents
