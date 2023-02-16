@@ -1,0 +1,1444 @@
+{
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTestSuites": 15,
+  "numPassedTests": 25,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 1,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 40,
+  "numTotalTestSuites": 15,
+  "numTotalTests": 66,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1676582317219,
+  "success": false,
+  "testResults": [
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 0,
+      "numPendingTests": 0,
+      "numTodoTests": 2,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1676582319114,
+        "runtime": 1472,
+        "slow": false,
+        "start": 1676582317642
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/ephedrandrox/Desktop/Digivigil/workspace/balek/tests/protocol.test.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Testing Balek Protocol"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Testing Balek Protocol Create Balek Protocol Module",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Create Balek Protocol Module"
+        },
+        {
+          "ancestorTitles": [
+            "Testing Balek Protocol"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Testing Balek Protocol Test protocol Handshake that confirms version",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Test protocol Handshake that confirms version"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1676582319126,
+        "runtime": 1517,
+        "slow": false,
+        "start": 1676582317609
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/ephedrandrox/Desktop/Digivigil/workspace/balek/tests/io/databases/mongo.test.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "IO MongoDatabaseConnection Class"
+          ],
+          "duration": 3,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "IO MongoDatabaseConnection Class MongoDatabaseConnection Class isReady",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "MongoDatabaseConnection Class isReady"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 3,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1676582319121,
+        "runtime": 1512,
+        "slow": false,
+        "start": 1676582317609
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/ephedrandrox/Desktop/Digivigil/workspace/balek/tests/utility/dataStructures.test.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "FixedSizeArray"
+          ],
+          "duration": 6,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "FixedSizeArray should add items to the array",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should add items to the array"
+        },
+        {
+          "ancestorTitles": [
+            "FixedSizeArray"
+          ],
+          "duration": 0,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "FixedSizeArray should remove the oldest item when adding a new item and the size exceeds the maximum",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should remove the oldest item when adding a new item and the size exceeds the maximum"
+        },
+        {
+          "ancestorTitles": [
+            "FixedSizeArray"
+          ],
+          "duration": 0,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "FixedSizeArray should perform a callback function on each item in the array using forEach",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should perform a callback function on each item in the array using forEach"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1676582319116,
+        "runtime": 1508,
+        "slow": false,
+        "start": 1676582317608
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/ephedrandrox/Desktop/Digivigil/workspace/balek/tests/io/databases.test.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Testing  IO Databases Class"
+          ],
+          "duration": 7,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Testing  IO Databases Class Databases Class isReady resolves",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Databases Class isReady resolves"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1676582319137,
+        "runtime": 1511,
+        "slow": false,
+        "start": 1676582317626
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/ephedrandrox/Desktop/Digivigil/workspace/balek/tests/io/databases/msql.test.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Testing  IO SqlDatabaseConnection Class"
+          ],
+          "duration": 3,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Testing  IO SqlDatabaseConnection Class SqlDatabaseConnection Class isReady resolves",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "SqlDatabaseConnection Class isReady resolves"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1676582319149,
+        "runtime": 1529,
+        "slow": false,
+        "start": 1676582317620
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/ephedrandrox/Desktop/Digivigil/workspace/balek/tests/io/https.test.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Testing  IO Https Class"
+          ],
+          "duration": 4,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Testing  IO Https Class Https Class isReady resolves",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Https Class isReady resolves"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 0,
+      "numPendingTests": 0,
+      "numTodoTests": 1,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1676582319153,
+        "runtime": 1518,
+        "slow": false,
+        "start": 1676582317635
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/ephedrandrox/Desktop/Digivigil/workspace/balek/tests/interface.test.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Testing Balek Client Instance"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Testing Balek Client Instance Create Balek Client Instance Class",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Create Balek Client Instance Class"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 5,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1676582319190,
+        "runtime": 1586,
+        "slow": false,
+        "start": 1676582317604
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/ephedrandrox/Desktop/Digivigil/workspace/balek/tests/io/files.test.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Testing Files IO Class"
+          ],
+          "duration": 3,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Testing Files IO Class Files Class isReady resolves",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Files Class isReady resolves"
+        },
+        {
+          "ancestorTitles": [
+            "Testing Files IO Class"
+          ],
+          "duration": 3,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Testing Files IO Class Files Class Returns file: package.json",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Files Class Returns file: package.json"
+        },
+        {
+          "ancestorTitles": [
+            "Testing Files IO Class"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Testing Files IO Class Files Class Throws error on unavailable file",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Files Class Throws error on unavailable file"
+        },
+        {
+          "ancestorTitles": [
+            "Testing Files IO Class"
+          ],
+          "duration": 2,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Testing Files IO Class Files Class Returns a Readable File Handle for package.json",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Files Class Returns a Readable File Handle for package.json"
+        },
+        {
+          "ancestorTitles": [
+            "Testing Files IO Class"
+          ],
+          "duration": 0,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Testing Files IO Class Files Class Throws error on unavailable file handle",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Files Class Throws error on unavailable file handle"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 3,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1676582319197,
+        "runtime": 1584,
+        "slow": false,
+        "start": 1676582317613
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/ephedrandrox/Desktop/Digivigil/workspace/balek/tests/configuration/argMap.test.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "commandLineArgumentsMap"
+          ],
+          "duration": 4,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "commandLineArgumentsMap should return a map of the command line arguments",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 5,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should return a map of the command line arguments"
+        },
+        {
+          "ancestorTitles": [
+            "commandLineArgumentsMap"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "commandLineArgumentsMap should return a map of the command line arguments when there is no equals sign",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 3,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should return a map of the command line arguments when there is no equals sign"
+        },
+        {
+          "ancestorTitles": [
+            "commandLineArgumentsMap"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "commandLineArgumentsMap should return a map of the command line arguments when there is no equals sign",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 3,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should return a map of the command line arguments when there is no equals sign"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1676582319244,
+        "runtime": 1619,
+        "slow": false,
+        "start": 1676582317625
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/ephedrandrox/Desktop/Digivigil/workspace/balek/tests/io/wss/connection.test.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Testing  IO WebSocketConnection Class"
+          ],
+          "duration": 2,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Testing  IO WebSocketConnection Class WebSocketConnection Class isReady resolves",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "WebSocketConnection Class isReady resolves"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1676582319171,
+        "runtime": 1565,
+        "slow": false,
+        "start": 1676582317606
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/ephedrandrox/Desktop/Digivigil/workspace/balek/tests/io/wss.test.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Testing IO Websockets Class"
+          ],
+          "duration": 2,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Testing IO Websockets Class WebSockets Class Exists",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "WebSockets Class Exists"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 0,
+      "numPendingTests": 0,
+      "numTodoTests": 37,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1676582319184,
+        "runtime": 1552,
+        "slow": false,
+        "start": 1676582317632
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/ephedrandrox/Desktop/Digivigil/workspace/balek/tests/todos.test.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Framework API ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Framework API ToDo List Refactor synced state base module to component",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Refactor synced state base module to component"
+        },
+        {
+          "ancestorTitles": [
+            "Framework API ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Framework API ToDo List Refactor remote commander base module to component",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Refactor remote commander base module to component"
+        },
+        {
+          "ancestorTitles": [
+            "Framework API ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Framework API ToDo List Refactor database controller base module to component",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Refactor database controller base module to component"
+        },
+        {
+          "ancestorTitles": [
+            "Framework API ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Framework API ToDo List Refactor interfaceCommands module component",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Refactor interfaceCommands module component"
+        },
+        {
+          "ancestorTitles": [
+            "Framework API ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Framework API ToDo List Refactor login module component",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Refactor login module component"
+        },
+        {
+          "ancestorTitles": [
+            "Framework API ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Framework API ToDo List Refactor syncedCommander module component",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Refactor syncedCommander module component"
+        },
+        {
+          "ancestorTitles": [
+            "Framework API ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Framework API ToDo List Refactor syncedMap module component",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Refactor syncedMap module component"
+        },
+        {
+          "ancestorTitles": [
+            "Framework API ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Framework API ToDo List Refactor syncedStream module component",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Refactor syncedStream module component"
+        },
+        {
+          "ancestorTitles": [
+            "Framework Base Modules ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Framework Base Modules ToDo List Refactor Session Login Module",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Refactor Session Login Module"
+        },
+        {
+          "ancestorTitles": [
+            "Framework Base Modules ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Framework Base Modules ToDo List Refactor Session Menu Module",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Refactor Session Menu Module"
+        },
+        {
+          "ancestorTitles": [
+            "Framework Base Modules ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Framework Base Modules ToDo List Refactor User Info Module",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Refactor User Info Module"
+        },
+        {
+          "ancestorTitles": [
+            "Framework Base Modules ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Framework Base Modules ToDo List Refactor User Guide Module",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Refactor User Guide Module"
+        },
+        {
+          "ancestorTitles": [
+            "Framework Base Modules ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Framework Base Modules ToDo List Refactor Background and FOL Module",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Refactor Background and FOL Module"
+        },
+        {
+          "ancestorTitles": [
+            "Framework Base Modules ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Framework Base Modules ToDo List Refactor Admin System Module",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Refactor Admin System Module"
+        },
+        {
+          "ancestorTitles": [
+            "Framework Base Modules ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Framework Base Modules ToDo List Refactor Admin Users Module",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Refactor Admin Users Module"
+        },
+        {
+          "ancestorTitles": [
+            "Interface ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Interface ToDo List Create refactored Interface Module",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Create refactored Interface Module"
+        },
+        {
+          "ancestorTitles": [
+            "Interface ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Interface ToDo List Create refactored UI Modules",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Create refactored UI Modules"
+        },
+        {
+          "ancestorTitles": [
+            "Interface ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Interface ToDo List Create refactored Protocol Module",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Create refactored Protocol Module"
+        },
+        {
+          "ancestorTitles": [
+            "Interface ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Interface ToDo List Create refactored Users Module",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Create refactored Users Module"
+        },
+        {
+          "ancestorTitles": [
+            "Interface ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Interface ToDo List Create refactored Devices Module",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Create refactored Devices Module"
+        },
+        {
+          "ancestorTitles": [
+            "Interface ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Interface ToDo List Create refactored Authentication Module",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Create refactored Authentication Module"
+        },
+        {
+          "ancestorTitles": [
+            "Interface ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Interface ToDo List Create refactored Sessions Module",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Create refactored Sessions Module"
+        },
+        {
+          "ancestorTitles": [
+            "Interface ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Interface ToDo List Create refactored Workspaces Module",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Create refactored Workspaces Module"
+        },
+        {
+          "ancestorTitles": [
+            "Interface ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Interface ToDo List Create refactored Interface build with Webpack",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Create refactored Interface build with Webpack"
+        },
+        {
+          "ancestorTitles": [
+            "Instance ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Instance ToDo List Create refactored Protocol Module",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Create refactored Protocol Module"
+        },
+        {
+          "ancestorTitles": [
+            "Instance ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Instance ToDo List Create refactored Users Module",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Create refactored Users Module"
+        },
+        {
+          "ancestorTitles": [
+            "Instance ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Instance ToDo List Create refactored Devices Module",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Create refactored Devices Module"
+        },
+        {
+          "ancestorTitles": [
+            "Instance ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Instance ToDo List Create refactored Authentication Module",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Create refactored Authentication Module"
+        },
+        {
+          "ancestorTitles": [
+            "Instance ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Instance ToDo List Create refactored Sessions Module",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Create refactored Sessions Module"
+        },
+        {
+          "ancestorTitles": [
+            "Instance ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Instance ToDo List Create refactored Workspaces Module",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Create refactored Workspaces Module"
+        },
+        {
+          "ancestorTitles": [
+            "Documentation ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Documentation ToDo List Import and refactor Quickstart Guide",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Import and refactor Quickstart Guide"
+        },
+        {
+          "ancestorTitles": [
+            "Documentation ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Documentation ToDo List Import and refactor User Guide",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Import and refactor User Guide"
+        },
+        {
+          "ancestorTitles": [
+            "Documentation ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Documentation ToDo List Import and refactor Administrator Guide",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Import and refactor Administrator Guide"
+        },
+        {
+          "ancestorTitles": [
+            "Documentation ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Documentation ToDo List Integrate Developer guide into Typedoc",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Integrate Developer guide into Typedoc"
+        },
+        {
+          "ancestorTitles": [
+            "Builds ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Builds ToDo List Create Deployment Build",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Create Deployment Build"
+        },
+        {
+          "ancestorTitles": [
+            "Builds ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Builds ToDo List Create Testing Build",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Create Testing Build"
+        },
+        {
+          "ancestorTitles": [
+            "Builds ToDo List"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Builds ToDo List Create Examples Build",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "todo",
+          "title": "Create Examples Build"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1676582319244,
+        "runtime": 1627,
+        "slow": false,
+        "start": 1676582317617
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/ephedrandrox/Desktop/Digivigil/workspace/balek/tests/io.test.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Testing  IO Class"
+          ],
+          "duration": 3,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Testing  IO Class IO Class isReady resolves",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "IO Class isReady resolves"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 6,
+      "numPendingTests": 1,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1676582319403,
+        "runtime": 1794,
+        "slow": false,
+        "start": 1676582317609
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/ephedrandrox/Desktop/Digivigil/workspace/balek/tests/configuration.test.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Testing Configuration Class"
+          ],
+          "duration": 2,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Testing Configuration Class Package Configuration Matches Version",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Package Configuration Matches Version"
+        },
+        {
+          "ancestorTitles": [
+            "Testing Configuration Class"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Testing Configuration Class Balek Config Class has network settings",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Balek Config Class has network settings"
+        },
+        {
+          "ancestorTitles": [
+            "Testing Configuration Class"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Testing Configuration Class Command Line arguments returned",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Command Line arguments returned"
+        },
+        {
+          "ancestorTitles": [
+            "Testing Configuration Class"
+          ],
+          "duration": 3,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Testing Configuration Class Observing a setting before it is mapped then setting it",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Observing a setting before it is mapped then setting it"
+        },
+        {
+          "ancestorTitles": [
+            "Testing Configuration Class"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Testing Configuration Class Observing a setting that was set in header",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Observing a setting that was set in header"
+        },
+        {
+          "ancestorTitles": [
+            "Testing Configuration Class"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Testing Configuration Class Database state update",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Database state update"
+        },
+        {
+          "ancestorTitles": [
+            "Testing Configuration Class"
+          ],
+          "duration": null,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Testing Configuration Class if an object is passed as a setting to set, make it change all things inside first",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "pending",
+          "title": "if an object is passed as a setting to set, make it change all things inside first"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1676582319535,
+        "runtime": 1931,
+        "slow": false,
+        "start": 1676582317604
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "/Users/ephedrandrox/Desktop/Digivigil/workspace/balek/tests/instance.test.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Testing  BalekServerInstance Class"
+          ],
+          "duration": 129,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Testing  BalekServerInstance Class Can connect to localhost and receive Version",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Can connect to localhost and receive Version"
+        }
+      ],
+      "failureMessage": null
+    }
+  ],
+  "wasInterrupted": false
+}
