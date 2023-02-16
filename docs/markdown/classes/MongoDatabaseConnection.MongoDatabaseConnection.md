@@ -22,7 +22,7 @@
 
 #### Defined in
 
-Instance/IO/Databases/Mongo.ts:8
+Instance/IO/Databases/Mongo.ts:9
 
 ## Methods
 
@@ -36,4 +36,4 @@ Instance/IO/Databases/Mongo.ts:8
 
 #### Defined in
 
-Instance/IO/Databases/Mongo.ts:10
+Instance/IO/Databases/Mongo.ts:11

@@ -18,4 +18,4 @@ exports Logger
 
 #### Defined in
 
-Utility/Logger.ts:21
+Utility/Logger.ts:17

@@ -40,7 +40,7 @@ Creates a new instance of the HTTPS server
 
 #### Defined in
 
-Instance/IO/Https.ts:44
+Instance/IO/Https.ts:45
 
 ## Properties
 
@@ -50,7 +50,7 @@ Instance/IO/Https.ts:44
 
 #### Defined in
 
-Instance/IO/Https.ts:40
+Instance/IO/Https.ts:41
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 #### Defined in
 
-Instance/IO/Https.ts:39
+Instance/IO/Https.ts:40
 
 ___
 
@@ -72,7 +72,7 @@ The HTTPS server
 
 #### Defined in
 
-Instance/IO/Https.ts:35
+Instance/IO/Https.ts:36
 
 ___
 
@@ -82,7 +82,7 @@ ___
 
 #### Defined in
 
-Instance/IO/Https.ts:37
+Instance/IO/Https.ts:38
 
 ## Methods
 
@@ -105,7 +105,7 @@ Adds a new WebSocket server for a specific path
 
 #### Defined in
 
-Instance/IO/Https.ts:147
+Instance/IO/Https.ts:148
 
 ___
 
@@ -127,7 +127,7 @@ Handles incoming requests from listening server
 
 #### Defined in
 
-Instance/IO/Https.ts:120
+Instance/IO/Https.ts:121
 
 ___
 
@@ -150,7 +150,7 @@ Handles incoming requests from listening server
 
 #### Defined in
 
-Instance/IO/Https.ts:78
+Instance/IO/Https.ts:79
 
 ___
 
@@ -174,7 +174,7 @@ Handles incoming Wss Upgrade requests from listening server
 
 #### Defined in
 
-Instance/IO/Https.ts:103
+Instance/IO/Https.ts:104
 
 ___
 
@@ -192,7 +192,7 @@ True
 
 #### Defined in
 
-Instance/IO/Https.ts:155
+Instance/IO/Https.ts:156
 
 ___
 
@@ -216,7 +216,7 @@ Sends content in the response.
 
 #### Defined in
 
-Instance/IO/Https.ts:130
+Instance/IO/Https.ts:131
 
 ___
 
@@ -236,7 +236,7 @@ If an error occurs while starting the server
 
 #### Defined in
 
-Instance/IO/Https.ts:50
+Instance/IO/Https.ts:51
 
 ___
 
@@ -256,4 +256,4 @@ If an error occurs while starting the server
 
 #### Defined in
 
-Instance/IO/Https.ts:69
+Instance/IO/Https.ts:70

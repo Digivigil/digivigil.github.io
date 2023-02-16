@@ -22,7 +22,7 @@
 
 #### Defined in
 
-Instance/IO/Databases/Sql.ts:8
+Instance/IO/Databases/Sql.ts:9
 
 ## Methods
 
@@ -36,4 +36,4 @@ Instance/IO/Databases/Sql.ts:8
 
 #### Defined in
 
-Instance/IO/Databases/Sql.ts:10
+Instance/IO/Databases/Sql.ts:11

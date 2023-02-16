@@ -37,7 +37,7 @@ Constructor for WebSockets class
 
 #### Defined in
 
-Instance/IO/Wss.ts:24
+Instance/IO/Wss.ts:25
 
 ## Properties
 
@@ -47,7 +47,7 @@ Instance/IO/Wss.ts:24
 
 #### Defined in
 
-Instance/IO/Wss.ts:20
+Instance/IO/Wss.ts:21
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 #### Defined in
 
-Instance/IO/Wss.ts:19
+Instance/IO/Wss.ts:20
 
 ## Methods
 
@@ -79,7 +79,7 @@ Method that handles incoming connections
 
 #### Defined in
 
-Instance/IO/Wss.ts:33
+Instance/IO/Wss.ts:34
 
 ___
 
@@ -103,7 +103,7 @@ Handle WebSocket upgrade
 
 #### Defined in
 
-Instance/IO/Wss.ts:47
+Instance/IO/Wss.ts:48
 
 ___
 
@@ -121,7 +121,7 @@ A promise that resolves to a boolean indicating if the server is ready
 
 #### Defined in
 
-Instance/IO/Wss.ts:71
+Instance/IO/Wss.ts:72
 
 ___
 
@@ -143,7 +143,7 @@ Method that creates a new ID for a connection
 
 #### Defined in
 
-Instance/IO/Wss.ts:55
+Instance/IO/Wss.ts:56
 
 ___
 
@@ -157,4 +157,4 @@ ___
 
 #### Defined in
 
-Instance/IO/Wss.ts:64
+Instance/IO/Wss.ts:65

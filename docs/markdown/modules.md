@@ -24,7 +24,7 @@
 
 ### Instance Modules
 
-- [BalekServerInstance](modules/BalekServerInstance.md)
+- [Instance](modules/Instance.md)
 - [Start](modules/Start.md)
 
 ### Utility Modules

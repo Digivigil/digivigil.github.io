@@ -38,7 +38,7 @@ Provides a wrapper for the ws module
 
 #### Defined in
 
-Instance/IO/Wss/Connection.ts:14
+Instance/IO/Wss/Connection.ts:15
 
 ## Properties
 
@@ -48,7 +48,7 @@ Instance/IO/Wss/Connection.ts:14
 
 #### Defined in
 
-Instance/IO/Wss/Connection.ts:13
+Instance/IO/Wss/Connection.ts:14
 
 ## Methods
 
@@ -70,7 +70,7 @@ Method that handles close events
 
 #### Defined in
 
-Instance/IO/Wss/Connection.ts:60
+Instance/IO/Wss/Connection.ts:61
 
 ___
 
@@ -92,7 +92,7 @@ Method that handles error events
 
 #### Defined in
 
-Instance/IO/Wss/Connection.ts:48
+Instance/IO/Wss/Connection.ts:49
 
 ___
 
@@ -108,7 +108,7 @@ Method that handles close events
 
 #### Defined in
 
-Instance/IO/Wss/Connection.ts:53
+Instance/IO/Wss/Connection.ts:54
 
 ___
 
@@ -122,7 +122,7 @@ ___
 
 #### Defined in
 
-Instance/IO/Wss/Connection.ts:61
+Instance/IO/Wss/Connection.ts:62
 
 ___
 
@@ -144,7 +144,7 @@ Method that handles incoming messages
 
 #### Defined in
 
-Instance/IO/Wss/Connection.ts:37
+Instance/IO/Wss/Connection.ts:38
 
 ▸ `Private` **onMessage**(`message`): `void`
 
@@ -160,4 +160,4 @@ Instance/IO/Wss/Connection.ts:37
 
 #### Defined in
 
-Instance/IO/Wss/Connection.ts:38
+Instance/IO/Wss/Connection.ts:39

@@ -24,7 +24,7 @@
 
 #### Defined in
 
-Instance/IO/Files.ts:9
+Instance/IO/Files.ts:10
 
 ## Methods
 
@@ -38,7 +38,7 @@ Instance/IO/Files.ts:9
 
 #### Defined in
 
-Instance/IO/Files.ts:13
+Instance/IO/Files.ts:14
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 #### Defined in
 
-Instance/IO/Files.ts:17
+Instance/IO/Files.ts:18
 
 ___
 
@@ -80,4 +80,4 @@ ___
 
 #### Defined in
 
-Instance/IO/Files.ts:25
+Instance/IO/Files.ts:26
