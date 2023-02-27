@@ -1,0 +1,23 @@
+{
+  "name": "Digivigil",
+  "short_name": "Digivigil",
+  "icons": [
+    {
+      "src": "img/digivigil-icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "img/digivigil-icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "serviceworker": "serviceWorker.js",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#007bff"
+}
