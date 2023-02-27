@@ -19,5 +19,5 @@
   "serviceworker": "serviceWorker.js",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#007bff"
+  "theme_color": "#1B3955"
 }
